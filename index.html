@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>CSE, Daffodil International University</h2>
+
+    <button id="tryMe">Try me</button>
+
+    <div class="login-container">
+        <h3>Log in</h3>
+        <label for="username">Username</label>
+        <input type="text" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        
+        <p>One capital letter required<br>
+        One lower letter required<br>
+        One digit required<br>
+        One special character required</p>
+
+        <button id="save">SAVE</button>
+    </div>
+
+    <div class="registration-container">
+        <h3>Registration</h3>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName">
+        <span class="error">username required</span>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName">
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+
+        <label for="email">Email</label>
+        <input type="email" id="email">
+
+        <label>Programming Language</label>
+        <input type="checkbox" name="lang" value="C"> C
+        <input type="checkbox" name="lang" value="Java"> Java
+        <input type="checkbox" name="lang" value="Python"> Python
+        <input type="checkbox" name="lang" value="PHP"> PHP
+        <input type="checkbox" name="lang" value="C#"> C#
+
+        <br>
+        <br>
+
+        <button id="register">Registration</button>
+    </div>
+
+    <footer>
+        <p>All rights reserved by Tahmid Hasan</p>
+    </footer>
+</body>
+</html>
